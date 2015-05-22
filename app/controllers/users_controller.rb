@@ -5,8 +5,6 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
-    render text: "Hello world!"
-    
   end
 
   # GET /users/1
